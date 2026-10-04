@@ -48,7 +48,7 @@ npm run build
 npm run preview
 ```
 
-`npm run build` valida TypeScript y crea `dist/`. Para hosting estático, publicar el contenido de `dist/` en la raíz del dominio con HTTPS. Las rutas de recursos `/assets/` requieren publicación en raíz; para un subdirectorio adaptar las rutas y `base` de Vite. La navegación con hash no requiere reglas de redirección SPA. Validar los puntos de `REVISION_CONTENIDO.md` antes de publicar. No se realizó un despliegue.
+`npm run build` valida TypeScript y crea `dist/`. Para hosting estático, publicar el contenido de `dist/` en GitHub Pages bajo `/HidraTodo/` con HTTPS. Vite configura `base: '/HidraTodo/'` y `assetUrl` utiliza `import.meta.env.BASE_URL` para todas las imágenes. Para otro destino, ajustar `base` en `vite.config.ts`. La navegación con hash no requiere reglas de redirección SPA. Validar los puntos de `REVISION_CONTENIDO.md` antes de publicar. El workflow `.github/workflows/deploy.yml` publica `dist/` mediante GitHub Actions.
 
 ### Rutas y componentes
 
@@ -77,3 +77,5 @@ Las pruebas verifican home y catálogo en escritorio, tablet y móvil, filtros, 
 ### Ajustes UX v1.1
 
 El menú principal permanece sticky, mientras la barra de teléfonos se desplaza. Las anclas reservan la altura del menú y la navegación hamburguesa se abre debajo de él. Soluciones muestra “Explorar productos” con estados hover/foco. Contacto usa la dirección y el mensaje general de WhatsApp centralizados; las cotizaciones individuales conservan su lógica. `tests/ux.spec.ts` verifica estos comportamientos, enlaces y la prioridad de los modales sobre el header.
+
+En desarrollo local, abrir `http://localhost:5173/HidraTodo/`. Las pruebas usan ese mismo prefijo.

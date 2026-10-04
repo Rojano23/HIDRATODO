@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 test('home, assets, navigation and responsive layout', async ({ page }, info) => {
  const errors: string[]=[];page.on('pageerror', e=>errors.push(e.message));
- await page.goto('/');
+ await page.goto('./');
  await expect(page.getByRole('heading',{level:1})).toHaveText('Tuberías, válvulas y conexiones para proyectos que avanzan');
  await expect(page.locator('.category-card')).toHaveCount(6);
  await expect(page.locator('.brand-grid img')).toHaveCount(9);
@@ -15,7 +15,7 @@ test('home, assets, navigation and responsive layout', async ({ page }, info) =>
  expect(errors).toEqual([]);
 });
 test('search, family filter, modal, quote and section links',async({page},info)=>{
- await page.goto('/#catalogo');
+ await page.goto('./#catalogo');
  await expect(page.locator('.product-card')).toHaveCount(14);
  if(info.project.name==='desktop')await page.getByRole('button',{name:'Tubería PEAD',exact:true}).click();
  else await page.locator('select').selectOption('pead');
@@ -35,11 +35,11 @@ test('search, family filter, modal, quote and section links',async({page},info)=
  await page.locator('footer').getByRole('link',{name:'Marcas',exact:true}).click();await expect(page.locator('#marcas')).toBeInViewport();
 });
 test('all family images load and match their modal without stretching', async ({ page }, info) => {
- await page.goto('/#catalogo');
+ await page.goto('./#catalogo');
  const cards=page.locator('.product-card');await expect(cards).toHaveCount(14);
  const sources=await cards.locator(':scope > img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src')));
  expect(new Set(sources).size).toBe(14);
- expect(sources.every(src=>src?.startsWith('/assets/catalogo/')&&!src.includes('contra-incendio'))).toBe(true);
+ expect(sources.every(src=>src?.startsWith('/HidraTodo/assets/catalogo/')&&!src.includes('contra-incendio'))).toBe(true);
  for(let i=0;i<14;i++){
   const card=cards.nth(i);await card.scrollIntoViewIfNeeded();
   await expect.poll(()=>card.locator(':scope > img').evaluate(img=>(img as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
@@ -51,4 +51,18 @@ test('all family images load and match their modal without stretching', async ({
   if(i===10)await page.screenshot({path:`test-results/modal-images-${info.project.name}.png`});
   await page.keyboard.press('Escape');await expect(modal).toHaveCount(0);
  }
+});
+test('background images resolve under the Pages base', async ({page,request})=>{
+ await page.goto('./');
+ for(const selector of ['.hero','.quote-cta']){
+  const background=await page.locator(selector).evaluate(el=>getComputedStyle(el).backgroundImage);
+  const url=background.match(/url\("?([^"\)]+)"?\)/)![1];
+  expect(new URL(url).pathname).toMatch(/^\/HidraTodo\/assets\/banners\//);
+  expect((await request.get(url)).ok()).toBe(true);
+ }
+ await page.goto('./#catalogo');
+ const background=await page.locator('.catalog-hero').evaluate(el=>getComputedStyle(el).backgroundImage);
+ const url=background.match(/url\("?([^"\)]+)"?\)/)![1];
+ expect(new URL(url).pathname).toBe('/HidraTodo/assets/banners/catalogo-banner.png');
+ expect((await request.get(url)).ok()).toBe(true);
 });

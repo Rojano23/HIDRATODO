@@ -5,7 +5,7 @@ async function navigate(page:Page,label:string){
  await page.getByRole('navigation').getByRole('link',{name:label,exact:true}).click();
 }
 test('sticky navigation, anchors and independent contact links',async({page},info)=>{
- await page.goto('/');
+ await page.goto('./');
  await page.locator('footer').scrollIntoViewIfNeeded();
  await expect.poll(()=>page.locator('header').evaluate(el=>el.getBoundingClientRect().top)).toBe(0);
  expect(await page.locator('.contact-bar').evaluate(el=>el.getBoundingClientRect().bottom)).toBeLessThan(0);
@@ -33,7 +33,7 @@ test('sticky navigation, anchors and independent contact links',async({page},inf
  await navigate(page,'Inicio');await expect(page.getByRole('heading',{level:1})).toBeInViewport();
 });
 test('solution cards show action, keyboard feedback and matching catalog search',async({page},info)=>{
- await page.goto('/#soluciones');
+ await page.goto('./#soluciones');
  const cards=page.locator('.application-card');await expect(cards).toHaveCount(6);
  for(let i=0;i<6;i++){
   const card=cards.nth(i);await expect(card.locator('.application-action')).toBeVisible();
