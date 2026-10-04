@@ -1,0 +1,291 @@
+[
+  {
+    "filename": "pvc-alcantarillado-serie-20-25.png",
+    "title": "PVC alcantarillado serie 20 y 25",
+    "src": "/assets/catalogo/pvc-alcantarillado-serie-20-25.png",
+    "original_pdf_pages": [
+      3
+    ],
+    "original_image_xrefs": [
+      80
+    ],
+    "notes": "La fotografia del catalogo muestra tuberia naranja y conexiones para alcantarillado.",
+    "recommended": true
+  },
+  {
+    "filename": "pvc-sanitario.png",
+    "title": "PVC sanitario",
+    "src": "/assets/catalogo/pvc-sanitario.png",
+    "original_pdf_pages": [
+      4
+    ],
+    "original_image_xrefs": [
+      89
+    ],
+    "notes": "Instalacion sanitaria residencial presentada en la pagina 4.",
+    "recommended": true
+  },
+  {
+    "filename": "pvc-hidraulico-sistema-ingles.png",
+    "title": "PVC hidraulico sistema ingles",
+    "src": "/assets/catalogo/pvc-hidraulico-sistema-ingles.png",
+    "original_pdf_pages": [
+      3
+    ],
+    "original_image_xrefs": [
+      82
+    ],
+    "notes": "Tuberias blancas bajo el encabezado de sistema ingles de pagina 3. Resolucion original limitada.",
+    "recommended": true
+  },
+  {
+    "filename": "pvc-hidraulico-sistema-metrico.png",
+    "title": "PVC hidraulico sistema metrico",
+    "src": "/assets/catalogo/pvc-hidraulico-sistema-metrico.png",
+    "original_pdf_pages": [
+      5
+    ],
+    "original_image_xrefs": [
+      93
+    ],
+    "notes": "Tuberias blancas visibles en pagina 5. Imagen ilustrativa; no identifica clase o medida.",
+    "recommended": true
+  },
+  {
+    "filename": "pvc-cedula-40-80.png",
+    "title": "PVC cedula 40 y 80",
+    "src": "/assets/catalogo/pvc-cedula-40-80.png",
+    "original_pdf_pages": [
+      3
+    ],
+    "original_image_xrefs": [
+      81
+    ],
+    "notes": "Imagen de tubos y accesorios de pagina 3 donde se enumeran cedulas 40/80; no atribuir una cedula exacta visualmente.",
+    "recommended": true
+  },
+  {
+    "filename": "pvc-industrial-cedula-80.png",
+    "title": "PVC industrial cedula 80",
+    "src": "/assets/catalogo/pvc-industrial-cedula-80.png",
+    "original_pdf_pages": [
+      6
+    ],
+    "original_image_xrefs": [
+      100
+    ],
+    "notes": "Tubos grises de la seccion PVC industrial de pagina 6.",
+    "recommended": true
+  },
+  {
+    "filename": "cpvc-industrial-cedula-80.png",
+    "title": "CPVC industrial cedula 80",
+    "src": "/assets/catalogo/cpvc-industrial-cedula-80.png",
+    "original_pdf_pages": [
+      7
+    ],
+    "original_image_xrefs": [
+      104
+    ],
+    "notes": "Tubos y conexiones de la seccion CPVC industrial de pagina 7.",
+    "recommended": true
+  },
+  {
+    "filename": "cpvc-cts.png",
+    "title": "CPVC CTS",
+    "src": "/assets/catalogo/cpvc-cts.png",
+    "original_pdf_pages": [
+      8
+    ],
+    "original_image_xrefs": [
+      108
+    ],
+    "notes": "Se recortaron los titulos y sellos exteriores; las inscripciones sobre el tubo se mantienen como en la fuente.",
+    "recommended": true
+  },
+  {
+    "filename": "pead-corrugado-doble-pared.png",
+    "title": "PEAD corrugado doble pared",
+    "src": "/assets/catalogo/pead-corrugado-doble-pared.png",
+    "original_pdf_pages": [
+      8,
+      10
+    ],
+    "original_image_xrefs": [
+      109,
+      117
+    ],
+    "notes": "Composicion con tuberia corrugada y accesorios extraidos de paginas 8 y 10.",
+    "recommended": true
+  },
+  {
+    "filename": "pead-liso-hidraulico.png",
+    "title": "PEAD liso hidraulico",
+    "src": "/assets/catalogo/pead-liso-hidraulico.png",
+    "original_pdf_pages": [
+      9
+    ],
+    "original_image_xrefs": [
+      112
+    ],
+    "notes": "Tubos negros con linea azul; se elimino el encabezado superior incrustado.",
+    "recommended": true
+  },
+  {
+    "filename": "pead-liso-conduit.png",
+    "title": "PEAD liso conduit",
+    "src": "/assets/catalogo/pead-liso-conduit.png",
+    "original_pdf_pages": [
+      9
+    ],
+    "original_image_xrefs": [
+      113
+    ],
+    "notes": "Rollo de PEAD conduit; conserva etiqueta fotografiada en el tubo.",
+    "recommended": true
+  },
+  {
+    "filename": "pead-corrugado-conduit.png",
+    "title": "PEAD corrugado conduit",
+    "src": "/assets/catalogo/pead-corrugado-conduit.png",
+    "original_pdf_pages": [
+      10
+    ],
+    "original_image_xrefs": [
+      116
+    ],
+    "notes": "Tuberia corrugada y acoplamiento, sin tabla inferior ni texto superior.",
+    "recommended": true
+  },
+  {
+    "filename": "valvulas-fierro-fundido.png",
+    "title": "Valvulas de fierro fundido",
+    "src": "/assets/catalogo/valvulas-fierro-fundido.png",
+    "original_pdf_pages": [
+      11
+    ],
+    "original_image_xrefs": [
+      122
+    ],
+    "notes": "Composicion de cuatro tipos de valvula recortadas de la lamina de la pagina 11.",
+    "recommended": true
+  },
+  {
+    "filename": "fierro-fundido-conexiones.png",
+    "title": "Conexiones de fierro fundido",
+    "src": "/assets/catalogo/fierro-fundido-conexiones.png",
+    "original_pdf_pages": [
+      11
+    ],
+    "original_image_xrefs": [
+      139
+    ],
+    "notes": "Conexiones y bridas de fierro fundido de la pagina 11.",
+    "recommended": true
+  },
+  {
+    "filename": "marcos-tapas-contramarcos.png",
+    "title": "Marcos, tapas y contramarcos",
+    "src": "/assets/catalogo/marcos-tapas-contramarcos.png",
+    "original_pdf_pages": [
+      11
+    ],
+    "original_image_xrefs": [
+      135,
+      137
+    ],
+    "notes": "Composicion a partir de dos fotografias de tapas en pagina 11.",
+    "recommended": true
+  },
+  {
+    "filename": "sistemas-tomas-domiciliarias.png",
+    "title": "Sistemas / tomas domiciliarias",
+    "src": "/assets/catalogo/sistemas-tomas-domiciliarias.png",
+    "original_pdf_pages": [
+      12
+    ],
+    "original_image_xrefs": [
+      144
+    ],
+    "notes": "Sistema ilustrativo de toma domiciliaria de pagina 12. No afirma suministro de un equipo especifico.",
+    "recommended": true
+  },
+  {
+    "filename": "sistemas-captacion-pluvial.png",
+    "title": "Sistemas / captacion de agua de lluvia",
+    "src": "/assets/catalogo/sistemas-captacion-pluvial.png",
+    "original_pdf_pages": [
+      12
+    ],
+    "original_image_xrefs": [
+      143
+    ],
+    "notes": "Sistema de captacion de agua de lluvia presentado en pagina 12.",
+    "recommended": true
+  },
+  {
+    "filename": "conexiones-pead-corrugado.png",
+    "title": "Conexiones para PEAD corrugado",
+    "src": "/assets/catalogo/conexiones-pead-corrugado.png",
+    "original_pdf_pages": [
+      8
+    ],
+    "original_image_xrefs": [
+      109
+    ],
+    "notes": "Fila superior extraida sin banda de caracteristicas; fotografias de codo, tee y bota.",
+    "recommended": true
+  },
+  {
+    "filename": "instalacion-pvc-sanitario.png",
+    "title": "Instalacion de PVC sanitario",
+    "src": "/assets/catalogo/instalacion-pvc-sanitario.png",
+    "original_pdf_pages": [
+      4
+    ],
+    "original_image_xrefs": [
+      85
+    ],
+    "notes": "Segunda fotografia de PVC sanitario, en excavacion, pagina 4.",
+    "recommended": true
+  },
+  {
+    "filename": "instalacion-cpvc.png",
+    "title": "Instalacion con CPVC",
+    "src": "/assets/catalogo/instalacion-cpvc.png",
+    "original_pdf_pages": [
+      6
+    ],
+    "original_image_xrefs": [
+      101
+    ],
+    "notes": "Instalacion y conexiones de la pagina 6; puede incluir rotulos en fotografia original.",
+    "recommended": true
+  },
+  {
+    "filename": "pead-corrugado-instalacion.png",
+    "title": "PEAD corrugado instalado",
+    "src": "/assets/catalogo/pead-corrugado-instalacion.png",
+    "original_pdf_pages": [
+      10
+    ],
+    "original_image_xrefs": [
+      117
+    ],
+    "notes": "Foto de tubo de PEAD corrugado enterrado, pagina 10.",
+    "recommended": true
+  },
+  {
+    "filename": "sistemas-contra-incendio-referencia.png",
+    "title": "Sistemas contra incendio - referencia sujeta a validacion",
+    "src": "/assets/catalogo/sistemas-contra-incendio-referencia.png",
+    "original_pdf_pages": [
+      12
+    ],
+    "original_image_xrefs": [
+      142
+    ],
+    "notes": "Pagina 12. Mantener fuera del catalogo comercial hasta validar su alcance con HIDRATODO.",
+    "recommended": false
+  }
+]

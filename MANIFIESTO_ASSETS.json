@@ -1,0 +1,100 @@
+{
+  "proyecto": "HIDRATODO",
+  "imagenes": [
+    {
+      "tipo": "logos",
+      "archivo": "/assets/logos/hidratodo-logo.png",
+      "origen": "logo_hidratodo_con_gotas_y_hoja_verde.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/alfa.png",
+      "origen": "logotipo_alfa_con_swoosh_verde.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/advance.png",
+      "origen": "logotipo_industrial_tuberías_advance.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/cresco.png",
+      "origen": "logotipo_cresco_con_lema_tecnológico.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/ptm.png",
+      "origen": "logotipo_ptm_azul_turquesa.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/rud.png",
+      "origen": "logotipo_rud_válvulas.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/sigma-flow.png",
+      "origen": "logo_sigma_flow_con_emblema_circular.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/spears.png",
+      "origen": "logotipo_geométrico_spears_en_azul.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/truper.png",
+      "origen": "logotipo_truper_50_años_en_buenas_manos.png"
+    },
+    {
+      "tipo": "marcas",
+      "archivo": "/assets/marcas/kyo.png",
+      "origen": "logotipo_kyo_en_colores_corporativos.png"
+    },
+    {
+      "tipo": "productos",
+      "archivo": "/assets/productos/tuberia-pvc.png",
+      "origen": "accesorios_pvc_bajo_luz_industrial.png"
+    },
+    {
+      "tipo": "productos",
+      "archivo": "/assets/productos/tuberia-pead.png",
+      "origen": "tuberías_negras_en_obra_urbana.png"
+    },
+    {
+      "tipo": "productos",
+      "archivo": "/assets/productos/valvulas.png",
+      "origen": "válvulas_industriales_en_almacén.png"
+    },
+    {
+      "tipo": "productos",
+      "archivo": "/assets/productos/conexiones-accesorios.png",
+      "origen": "accesorios_de_plomería_en_exhibición.png"
+    },
+    {
+      "tipo": "productos",
+      "archivo": "/assets/productos/fierro-fundido.png",
+      "origen": "válvulas_y_tuberías_de_hierro_industrial.png"
+    },
+    {
+      "tipo": "productos",
+      "archivo": "/assets/productos/sistemas-hidraulicos.png",
+      "origen": "sistema_industrial_de_tuberías_y_válvulas_acuática.png"
+    },
+    {
+      "tipo": "banners",
+      "archivo": "/assets/banners/hero-principal.png",
+      "origen": "válvulas_y_tuberías_al_amanecer.png"
+    },
+    {
+      "tipo": "banners",
+      "archivo": "/assets/banners/catalogo-banner.png",
+      "origen": "exhibición_industrial_de_tuberías_y_válvulas.png"
+    },
+    {
+      "tipo": "banners",
+      "archivo": "/assets/banners/footer-banner.png",
+      "origen": "válvulas_industriales_bajo_luces_nocturnas.png"
+    }
+  ]
+}

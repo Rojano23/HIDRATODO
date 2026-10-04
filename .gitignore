@@ -1,0 +1,15 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.DS_Store
+
+# Archivos generados
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.local
+
+# Paquete de recursos duplicados
+HIDRATODO_Assets_Completos_Codex.zip
